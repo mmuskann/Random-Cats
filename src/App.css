@@ -1,0 +1,69 @@
+.app {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  min-height: 100vh;
+  padding: 40px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.main-section {
+  max-width: 600px;
+}
+
+.cat-card {
+  margin: 20px 0;
+}
+
+.cat-img {
+  width: 300px;
+  max-height: 350px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-top: 15px;
+}
+
+.attributes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #7c4dff;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #5e35b1;
+}
+
+button:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+.ban-list {
+  width: 250px;
+  padding: 20px;
+  border-left: 2px solid #ddd;
+}
+
+.ban-items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
